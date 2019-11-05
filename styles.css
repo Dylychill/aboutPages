@@ -1,0 +1,116 @@
+/* Dylan McKone
+10/30/19
+TA: Hudson Gilmore
+This is the index.css file for Creative Project 3 adding onto my portfolio website
+that I started in CP1. It will add style to the page's content.
+*/
+
+header h1 {
+  font-family: "Notable", sans-serif;
+}
+
+nav, header h1, .purple, .citation {
+  color: white;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+header h1, body {
+  padding-left: 20px;
+}
+
+p {
+  text-indent: 1em;
+}
+
+#about > p {
+  column-gap: 20px;
+  column-rule: 1px solid #B19CD9;
+  column-width: 300px;
+}
+
+#container, nav {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+footer, em, .citation {
+  font-style: italic;
+}
+
+.citation {
+  font-size: 10px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+nav li, .gallery button {
+  display: inline-block;
+}
+
+.gallery button {
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  box-shadow: 0 0 4px black;
+}
+
+#previous, #searchButton {
+  background-color: white;
+}
+
+#previous, #next, #searchButton {
+  color: black;
+}
+
+#about, img, #container, nav, .newsPiece {
+  display: flex;
+}
+
+#about {
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em;
+}
+
+.purple, #next, header {
+  background-color: #B19CD9;
+}
+
+.blue, body {
+  background-color: lightsteelblue;
+}
+
+.hidden {
+  display: none;
+}
+
+.newsPiece {
+  border: 5px solid #B19CD9;
+  margin: 20px;
+  padding: 10px;
+}
+
+#searchBar {
+  padding-top: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- Dylan McKone
+Section: CSE 154 AB
+10/29/19
+TA: Hudson Gilmore
+
+This is the html page for CP3. It showcases headlines pulling from the
+News Headlines API recommended for this assignment. It starts blank with a search bar
+waiting for user input.
+-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Current News</title>
+  </head>
+  <body>
+    <header>
+      <div id ="container">
+        <h1> Current News </h1>
+        <nav>
+          <ul>
+            <li> <a href="about.html">About Me</a></li>
+            <li> <a href="design.html">Design Work</a></li>
+            <li> <a href="index.html">Current News</a></li>
+          </ul>
+        </nav>
+        <button type="button" id="color">Change Colors!</button>
+      </div>
+    </header>
+    <main>
+    <section id="searchBar">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+      <button type="button" id="searchButton">Search</button>
+      <h2>Showing Results for &quot;<span id="searchTerm"></span>&quot;</h2>
+      <h3>Total Results: <span id="resultNum"></span> </h3>
+    </section>
+    </main>
+    <footer>
+      <p>News data taken from the News API <a href=" https://newsapi.org/"></a> https://newsapi.org/</p>
+    </footer>
+  </body>
+</html>
