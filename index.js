@@ -1,10 +1,9 @@
 /**
  *Dylan McKone
- *10/30/19
- *TA: Hudson Gilmore
- * This is the index.js script for Creative Project 3 adding onto my portfolio website
- * that I started in CP1. It will allow for user interaction to affect the behavior of the page.
- * CP3 accounts for fetching API to display news headlines based on user input search term.
+ *Last updated: 10/30/19
+ * This is the index.js script for my portfolio website
+ * It will allow for user interaction to affect the behavior of the page.
+ * Displays news headlines based on user input search term.
  */
 "use strict";
 (function() {

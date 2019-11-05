@@ -1,10 +1,10 @@
 /**
  *Dylan McKone
  *10/10/19
- *TA: Hudson Gilmore
- * This is the index.js script for Creative Project 3 adding onto my portfolio website
- * that I started in CP1. It will allow for user interaction to affect the behavior of the page.
- * CP3 accounts for fetching API to display...
+ * This is the design.js script for portfolio website.
+ * It will allow for user interaction to affect the behavior of the page.
+ * It will scroll through some PDFs of my work at The Daily Newspaper as a designer.
+
  */
 "use strict";
 (function() {
